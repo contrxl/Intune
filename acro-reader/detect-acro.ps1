@@ -5,9 +5,12 @@ $AcroProp = Get-ItemProperty -Path "HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows
 try {
     if ($AcroProp.DisplayVersion -eq "23.008.20533" -and $Acro -and $AcroReg) {
         Write-Host "Correct!"
+        Exit 0
     } else {
         Write-Host "Wrong!"
+        Exit 1
     }
 } catch {
     Write-Host "Error reading reg!"
+    Exit 1
 }
