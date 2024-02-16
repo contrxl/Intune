@@ -4,7 +4,7 @@
 2. Open the _.exe_ with 7zip (or another archive tool) and extract its contents to a folder. It should appear like so:
 ![The contents of the extracted Adobe Reader .exe file.](/.assets/acro-setup.png)
 4. If you are missing a _.msp_ update file like **"AcroRdrDCUpd2300820533.msp"** or require a different version, you can download it from [here](https://www.adobe.com/devnet-docs/acrobatetk/tools/ReleaseNotesDC/index.html).
-5. Create a new _.cmd_ file inside the folder where you extracted the _.exe_ called **install.cmd** or similar, in this file, paste the below line:
+5. Create a new _.cmd_ file inside the folder where you extracted the _.exe_ called **install.cmd** or similar, in this file, paste the below line and replace _"%~dp0AcroRdrDCUpd2300820533.msp"_ with the latest update version/the update version you are using:
 ```msiexec /i "%~dp0AcroRead.msi" /qn ALLUSERS=1 /Update "%~dp0AcroRdrDCUpd2300820533.msp" /norestart```
 6. Create a new _.cmd_ file inside the folder where you extracted the _.exe_ called **uninstall.cmd** or similar, in this file, paste the below line:
 ```msiexec /x "%~dp0AcroRead.msi" /q```

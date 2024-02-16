@@ -1,1 +1,0 @@
-cmd /c winget.exe upgrade --exact --id Notepad++.Notepad++ --silent --source winget --accept-package-agreements --accept-source-agreements

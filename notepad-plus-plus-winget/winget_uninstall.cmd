@@ -1,1 +1,0 @@
-cmd /c winget.exe uninstall --exact --id Notepad++.Notepad++ --silent --source winget --accept-source-agreements
