@@ -12,6 +12,6 @@ This repo only serves as guidance for deploying specific applications to Intune 
 
 ## To be Added
 
-[ ] Google Chrome
-[ ] Mozilla Firefox
-[ ] TeamViewer Full Client
+- [ ] Google Chrome
+- [ ] Mozilla Firefox
+- [ ] TeamViewer Full Client
