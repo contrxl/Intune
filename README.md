@@ -13,5 +13,6 @@ This repo only serves as guidance for deploying specific applications to Intune 
 ## To be Added
 
 - [ ] Google Chrome
-- [ ] Mozilla Firefox
+- [x] Mozilla Firefox
 - [ ] TeamViewer Full Client
+- [ ] SonicWall NetExtender
