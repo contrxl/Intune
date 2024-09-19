@@ -1,4 +1,4 @@
-﻿#requires -version 5.1
+#requires -version 5.1
 
 <#
 .SYNOPSIS
@@ -30,7 +30,7 @@ $Name = 'Mozilla Firefox';
 $Version = '115.14.0';
 
 # Method detection or requirement.
-$Method = 'Requirement';
+$Method = 'Detection';
 
 ############### Input - End ###############
 #endregion
