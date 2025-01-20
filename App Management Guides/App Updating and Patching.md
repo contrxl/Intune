@@ -34,7 +34,7 @@ Make the same modifications to your "require-chrome.ps1" script except from line
 $Method = 'Requirement';
 ```
 
-Proceed through creating a new app for Google Chrome as per instruction in [App Deployment](https://github.com/contrxl/Intune-App-Gallery/tree/main/App%20Deployment) until you reach the "Requirements" heading. Here, we will create a requirement of type script to check for an existing install of Google Chrome.
+Proceed through creating a new app for Google Chrome as per instruction in [App Deployment](https://github.com/contrxl/Intune-App-Gallery/blob/main/App%20Management%20Guides/App%20Deployment.md) until you reach the "Requirements" heading. Here, we will create a requirement of type script to check for an existing install of Google Chrome.
 
 ![Select "Add" and then select type "Script" to upload the requirement script](/.assets/RequirementScript.png)
 
