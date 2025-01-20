@@ -21,7 +21,7 @@ Navigate to the location you saved your Content Prep Tool and launch the `Intune
 
 Next, you will be asked to provide the path to the setup file. For this example, the path will be `C:\IntuneSource\TestApp\TestApp.exe`. Finally, you will be prompted to specify an output folder. We created this earlier and so it will be `C:\IntuneApps`.
 
-When asked if you wish to specify a catalog folder input "N". 
+When asked if you wish to specify a catalog folder input **"N"**. 
 
 ![Example of completed IntuneWinAppUtil.exe prompt](/.assets/IntuneAppUtil.png)
 
