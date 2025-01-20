@@ -15,4 +15,4 @@ If you do not make these changes at setup or upload a _.reg_ file, the ELO archi
 > [!NOTE]
 > [MSI_KEY] should automatically populate with the correct MSI key for the version you are installing.
 6. Configure the detection rule using MSI. The path/code should fill automatically with the correct MSI key for the version you are installing.
-7. If the PDF Printer is also required, see here.
+7. If the PDF Printer is also required, see [here](https://github.com/contrxl/Intune-App-Gallery/tree/main/ELO%20PDF%20Printer).
